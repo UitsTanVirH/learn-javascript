@@ -10,3 +10,7 @@ Code component is also called Thread of Execution
 Execution context is created in two phases.
 Memory creation phase, Code execution phase.
 ```
+# Hoisting
+```
+Even after executing a single line of code, memory is allocated for all the variables and functions. this is called hoisting
+```
