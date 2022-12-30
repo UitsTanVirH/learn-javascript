@@ -14,3 +14,11 @@ Memory creation phase, Code execution phase.
 ```
 Even after executing a single line of code, memory is allocated for all the variables and functions. this is called hoisting
 ```
+# Functions
+```
+Function declaration / Function statement
+function print(){
+  //kichu ekta
+}
+
+Function 
