@@ -100,4 +100,6 @@ Undefined is a placeholder in javascript. takes up it's own memory before assigi
 ```
 # let and const
 ```
-Let and const are used to solve var memory leak problems. they take memory 
+Let and const are used to solve var memory leak problems. they take memory in block scope or script scope
+```
+
