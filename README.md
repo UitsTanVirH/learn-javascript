@@ -53,6 +53,8 @@ Anonymous Function
 (function(){
   //kichu ekta
 })();
+
+IIFE - Immediately invoked function
 ----------------------------------------
 Arrow function
 var print = () => {
