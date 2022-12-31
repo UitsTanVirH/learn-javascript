@@ -8,6 +8,16 @@ Code component is also called Thread of Execution
 Execution context is created in two phases.
 Memory creation phase, Code execution phase.
 ```
+# Why javascript is a losely typed language
+```
+Because it supports all type of data type in a variable
+Ex: var a = "tanvir";
+var a = 20;
+```
+# Primitive vs non primitive
+```
+Non primittive share reference, Primitive share value
+```
 # Hoisting
 ```
 Even after executing a single line of code, memory is allocated for all the variables and functions. this is called hoisting
@@ -48,16 +58,6 @@ Arrow function
 var print = () => {
   console.log("something");
 }
-```
-# Why javascript is a losely typed language
-```
-Because it supports all type of data type in a variable
-Ex: var a = "tanvir";
-var a = 20;
-```
-# Primitive vs non primitive
-```
-Non primittive share reference, Primitive share value
 ```
 # Type error and Reference error
 ```
