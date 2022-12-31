@@ -55,6 +55,34 @@ Because it supports all type of data type in a variable
 Ex: var a = "tanvir";
 var a = 20;
 ```
-# Primitive non primitive
+# Primitive vs non primitive
 ```
-
+Non primittive share reference, Primitive share value
+```
+# Type error and Reference error
+```
+A reference error occurs when you try to use a variable that doesn't exist.
+A TypeError occurs when the variable exists, but the operation you're trying to perform is not appropriate for the type of value it contains.
+```
+# Scope
+```
+Scope can be defined in two ways. 
+If the variable can be accessed here or where this variable is accessible
+```
+# Lexical Environment
+```
+Lexial environement is memory component of an execution context + it's parent class's lexical environment
+```
+# Scope chain 
+```
+Scope chain is a chain of memory components.
+If a variable is not found in it's memory component then it will try in it's memory component, if not found then again will try in it's memory component. This creates a chain of memory and this chain is called scope chain
+```
+# Shadowing
+```
+If variables are declared with a same name then shadowing happens
+```
+# Closure
+```
+Function along with it's lexical environment bundled together
+```
