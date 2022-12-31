@@ -86,3 +86,18 @@ If variables are declared with a same name then shadowing happens
 ```
 Function along with it's parent's lexical environment bundled together forms closure
 ```
+# Memory leak // why let and const is used?
+```
+var leaks memory between block scopes
+```
+# Temporal dead zone
+```
+The time period between declaring let and assigning a value to it is called temporal dead zone
+```
+# undefined
+```
+Undefined is a placeholder in javascript. takes up it's own memory before assigining a value
+```
+# let and const
+```
+Let and const are used to solve var memory leak problems. they take memory 
