@@ -20,5 +20,29 @@ Function declaration / Function statement
 function print(){
   //kichu ekta
 }
-
-Function 
+------------------------------------------
+First class function / first class citizen
+A function which takes a function as a perameter or returns a function is called first class function
+function call(a){
+  a();
+}
+print(){
+  console.log("Something");
+}
+call(print);
+-----------------------------------------
+Function expression
+var a = function (){
+  //kichu ekta
+}
+----------------------------------------
+Named function expression
+var a = function print(){
+  //kichu ekta
+}
+----------------------------------------
+Anonymous Function
+(function(){
+  //kichu ekta
+})();
+```
