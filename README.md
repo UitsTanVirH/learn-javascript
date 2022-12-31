@@ -84,5 +84,5 @@ If variables are declared with a same name then shadowing happens
 ```
 # Closure
 ```
-Function along with it's lexical environment bundled together
+Function along with it's parent's lexical environment bundled together forms closure
 ```
