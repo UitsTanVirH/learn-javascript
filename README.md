@@ -45,4 +45,9 @@ Anonymous Function
 (function(){
   //kichu ekta
 })();
+----------------------------------------
+Arrow function
+var print = () => {
+  console.log("something");
+}
 ```
