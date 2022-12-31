@@ -54,7 +54,8 @@ Anonymous Function
   //kichu ekta
 })();
 
-IIFE - Immediately invoked function
+IIFE - Immediately invoked function expression
+This function runs as soon as it is defined
 ----------------------------------------
 Arrow function
 var print = () => {
