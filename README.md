@@ -1,5 +1,3 @@
-# learn-javascript
-
 # Execution Context
 ```
 When we run a javascript program an execution context is created.
@@ -51,3 +49,12 @@ var print = () => {
   console.log("something");
 }
 ```
+# Why javascript is a losely typed language
+```
+Because it supports all type of data type in a variable
+Ex: var a = "tanvir";
+var a = 20;
+```
+# Primitive non primitive
+```
+
