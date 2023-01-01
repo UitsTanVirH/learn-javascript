@@ -112,5 +112,20 @@ Let and const are used to solve var memory leak problems. they take memory in bl
 # Function composition
 ```
 
-``
-
+```
+# forEach function
+```
+array.forEach(callback);
+```
+# class and object
+```
+const user = {
+  firstName: "tanvir",
+  lastName: "hossain"
+}
+user.firstName();
+```
+# This keyword
+```
+This will represent the obj that calling it's function.
+```
